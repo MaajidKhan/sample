@@ -1,1 +1,2 @@
 model.onnx filter=lfs diff=lfs merge=lfs -text
+bvlc_alexnet.zip filter=lfs diff=lfs merge=lfs -text
