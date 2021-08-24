@@ -16,7 +16,7 @@ onnxruntime.set_default_logger_severity(0) #Prints additional logger prints for 
 sess_options = onnxruntime.SessionOptions()
 sess_options.graph_optimization_level = onnxruntime.GraphOptimizationLevel.ORT_ENABLE_ALL
 sess_options.intra_op_num_threads = 1
-model_path="bvlcalexnet-9.onnx"
+model_path="model.onnx"
 sess = onnxruntime.InferenceSession(model_path, sess_options)
 print("\n")
 print("Printing session providers: ")
